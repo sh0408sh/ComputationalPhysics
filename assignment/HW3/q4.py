@@ -42,8 +42,8 @@ while s < smax:
 	#if min > Ey[c-3] : min = Ey[c-3]
 
 	if s % dsav == 0:
-		plt.ylim(-0.12,0.12)  # set the ylimit of sub-panels
-		plt.yticks(np.arange(-0.12,0.12, 0.02))  # yticks
+		plt.ylim(-2,2)  # set the ylimit of sub-panels
+		plt.yticks(np.arange(-2,2, 0.1))  # yticks
 		plt.plot(x, Ey)
 		plt.draw()
 		plt.pause(0.01)
